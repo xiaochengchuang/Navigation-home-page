@@ -1,0 +1,122 @@
+//网站名
+var wzm=["3.14导航","#"];
+
+//搜索栏目
+var sslm=[
+	["网页","https://www.baidu.com/s?wd="],
+	["影视","http://so.iqiyi.com/so/q_"],
+	["网盘","http://www.pansoso.com/zh/"],
+	["种子","http://www.sobt8.com/q/"],
+	["软件","http://pc.qq.com/search.html#!keyword="],
+	["音乐","http://music.163.com/#/search/m/?s="],
+	["小说","http://zhannei.baidu.com/cse/search?s=2672242722776283010&q="],
+];
+
+//导航栏目
+var dhlm=[
+	[
+		["搜索1","#CCAE33"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度1","https://www.baidu.com/"],
+		["百度1","https://www.baidu.com/"],
+	],
+	[
+		["搜索2","#123456"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度2","https://www.baidu.com/"],
+	],
+	[
+		["搜索3","#654321"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度3","https://www.baidu.com/"],
+	],
+	[
+		["搜索4","#792645"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度4","https://www.baidu.com/"],
+		["百度1","https://www.baidu.com/"],
+	],
+	[
+		["搜索5","#84a32s"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度5","https://www.baidu.com/"],
+	],
+	[
+		["搜索6","#421685"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度","https://www.baidu.com/"],
+		["百度6","https://www.baidu.com/"],
+	],
+];
+
+//友情链接
+var yqlj=[
+	["3.14导航","#"],
+	["3.14导航","#"],
+	["3.14导航","#"],
+	["3.14导航","#"],
+	["3.14导航","#"],
+	["3.14导航","#"],
+];
+
+//关于我们
+var gywm="3.14导航的介绍。3.14导航的介绍。3.14导航的介绍。3.14导航的介绍。"
